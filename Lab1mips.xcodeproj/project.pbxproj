@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		903C3B691DB84EBF004CAF05 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903C3B681DB84EBF004CAF05 /* main.cpp */; };
+		90F6A2EE1DB930960045B4C4 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F6A2EC1DB930960045B4C4 /* test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		903C3B631DB84EBE004CAF05 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = Users/jenliu/Documents/Studying;
+			dstSubfolderSpec = 16;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -25,6 +26,10 @@
 /* Begin PBXFileReference section */
 		903C3B651DB84EBF004CAF05 /* Lab1mips */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab1mips; sourceTree = BUILT_PRODUCTS_DIR; };
 		903C3B681DB84EBF004CAF05 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		90F6A2EC1DB930960045B4C4 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		90F6A2ED1DB930960045B4C4 /* test.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = test.hpp; sourceTree = "<group>"; };
+		90F6A2EF1DB93B7A0045B4C4 /* dmem.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dmem.txt; path = Lab1mips/dmem.txt; sourceTree = "<group>"; };
+		90F6A2F01DB93B7A0045B4C4 /* imem.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = imem.txt; path = Lab1mips/imem.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +46,8 @@
 		903C3B5C1DB84EBE004CAF05 = {
 			isa = PBXGroup;
 			children = (
+				90F6A2EF1DB93B7A0045B4C4 /* dmem.txt */,
+				90F6A2F01DB93B7A0045B4C4 /* imem.txt */,
 				903C3B671DB84EBF004CAF05 /* Lab1mips */,
 				903C3B661DB84EBF004CAF05 /* Products */,
 			);
@@ -58,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				903C3B681DB84EBF004CAF05 /* main.cpp */,
+				90F6A2EC1DB930960045B4C4 /* test.cpp */,
+				90F6A2ED1DB930960045B4C4 /* test.hpp */,
 			);
 			path = Lab1mips;
 			sourceTree = "<group>";
@@ -120,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				903C3B691DB84EBF004CAF05 /* main.cpp in Sources */,
+				90F6A2EE1DB930960045B4C4 /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +256,7 @@
 				903C3B6E1DB84EBF004CAF05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
